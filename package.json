@@ -1,0 +1,34 @@
+{
+  "name": "js_courses",
+  "version": "1.0.0",
+  "description": "courses project",
+  "main": "tasks.ts",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "prettier": "^2.6.1"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "npx tsc",
+    "lint": "eslint --debug ./ --fix",
+    "lint:write": "yarn pretty && eslint ./ --fix",
+    "pretty": "prettier --write ./*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariagolubeva/js_courses.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariagolubeva/js_courses/issues"
+  },
+  "homepage": "https://github.com/mariagolubeva/js_courses#readme"
+}
